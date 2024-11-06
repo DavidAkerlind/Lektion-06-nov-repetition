@@ -3,7 +3,33 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>01_Repitition</title>
+        <title>01_Repitition_Dropdown</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script
+            src="https://kit.fontawesome.com/f300007e95.js"
+            crossorigin="anonymous"></script>
     </head>
-    <body></body>
+    <body>
+        <header class="header">
+            <nav class="navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-list-item">Home</li>
+                    <li class="navigation-list-item">About</li>
+                    <li class="navigation-list-item">Contact</li>
+                    <li class="navigation-list-item product">
+                        Products
+                        <i
+                            class="fa-solid fa-chevron-down dropdown-item1"
+                            style="color: #fff"></i>
+                        <ul class="navigation-dropdown">
+                            <li class="dropdown-item">1111111</li>
+                            <li class="dropdown-item">2222222</li>
+                            <li class="dropdown-item">3333333</li>
+                            <li class="dropdown-item">4444444</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </body>
 </html>
